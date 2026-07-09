@@ -17,6 +17,12 @@ package lab;
 public class Specs {
 
     // TODO ข้อ 4: เขียน JavaDoc ให้เมธอดนี้
+    /**
+     * 
+     * @param arr 
+     * @param key
+     * @return
+     */
     public static int firstIndexOf(int[] arr, int key) {
         if (arr == null) throw new IllegalArgumentException("arr must not be null");
         for (int i = 0; i < arr.length; i++)
